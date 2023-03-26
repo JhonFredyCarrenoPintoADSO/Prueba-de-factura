@@ -1,4 +1,233 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;  
+    background: #000000;
+}
+
+:root{
+    --tabla: #066ede;
+    --tabla_dos: #eeeeee;
+    --letra: #0064dc;
+}
+
 *{
-    background: red;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    background: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 450px;
+    height: 600px;
+}
+
+.logo{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+}
+
+.logo h1{
+    color: #000;
+}
+
+.com{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    width: 100px;
+    height: 30px;
+}
+
+.com h1{
+    color: var(--letra);
+    font-size: 16px;
+    position: absolute;
+    top: 7px;
+    left: 20px;
+}
+
+.facturado{
+    position: absolute;
+    top: 70px;
+    right: 5px;
+    width: 100px;
+    height: 60px;
+}
+
+.facturado h1{
+    padding-left: 35px;
+    font-size: 10px;
+    color: var(--letra);
+}
+
+.facturado p{
+    position: relative;
+    right: 6px;
+    font-size: 7px;
+    padding-left: 40px;
+}
+
+.facturado .j{
+    text-align: right;
+}
+
+.facturado .r{
+    text-align: right;
+}
+
+.facturado .num{
+    text-align: right;
+}
+
+.factura{
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    width: 100px;
+    height: 60px;
+}
+
+.factura h1{
+    font-size: 20px;
+}
+
+.text p{
+    position: relative;
+    left: 4px;
+    font-size: 10px;
+}
+
+.text_dos p{
+    font-weight: bold;
+    position: relative;
+    right: 2px;
+    top: -35px;
+    font-size: 10px;
+    text-align: right;
+}
+
+table{
+    text-align: center;
+    border-collapse: collapse;
+    position: absolute;
+    top: 140px;
+    width: 100%;
+}
+
+thead{
+    font-size: 16px;
+    background: var(--tabla);
     color: #fff;
+}
+
+.dos{
+    background: var(--tabla_dos);
+}
+
+.cuenta{
+    position: absolute;
+    bottom: 220PX;
+    right: 10PX;
+    width: 200px;
+    height: 100px;
+}
+
+.letras p{
+    font-size: 14px;
+    margin: 7px;
+}
+
+.ttl{
+    color: var(--letra);
+    font-weight: bold;
+}
+
+.numeros{
+    font-size: 14px;
+    position: absolute;
+    right: 0;
+    top: 0px;
+}
+
+.numeros p{
+    margin: 7px;
+}
+
+.num_uno{
+    text-align: right;
+}
+
+.num_dos{
+    text-align: right;
+}
+
+.num_tres{
+    text-align: right;
+}
+
+.siete{
+    color: var(--letra);
+    font-weight: bold;
+}
+
+.linea{
+    position: absolute;
+    background: var(--letra);
+    width: 100%;
+    height: 2px;
+}
+
+.empresa{
+    /* background: orange; */
+    position: absolute;
+    right: 10px;
+    bottom: 130px;
+    width: 200px;
+    height: 100px;
+}
+
+.empresa h1{
+    color: var(--letra);
+    font-size: 16px;
+    position: absolute;
+    right: 0;
+    top: 40px;
+}
+
+.calle {
+    position: absolute;
+    top: 60px;
+    right: 0;
+}
+
+.calle p{
+    margin-top: 4px;
+    font-size: 10px;
+    text-align: right;
+}
+
+.pago{
+    position: absolute;
+    left: 10px;
+    bottom: 130px;
+    width: 300px;
+    height: 50px;
+}
+
+.pago h1{
+    font-size: 14px;
+    color: var(--letra);
+}
+
+.pago p{
+    margin-top: 7px;
+    font-size: 10px;
 }
